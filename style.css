@@ -5,7 +5,7 @@
 .mya{
     text-decoration:none;
     font-family:'Courier New', Courier, monospace;
-    color:white;
+    color:black;
     background-color:brgba(227, 196, 40, 0.806);
     padding: 0px 30px;
     gap:20px;
@@ -41,7 +41,7 @@ body{
 #mydiv1{
     background-color:rgba(227, 196, 40, 0.806);
     height:500px;
-    color:white;
+    color:black;
     text-align:center;
     font-size:200px;
     padding:10px;
@@ -57,7 +57,7 @@ h1{
 
 #mya2{
     text-decoration:none;
-    color:white;
+    color:black;
     font-family:'Courier New', Courier, monospace;
     font-size:70px;
     transition:0.25s;
@@ -73,5 +73,68 @@ h1{
 }
 
 #mybutton{
-    dont-size:100px;
+    font-size:100px;
+    text-decoration:none;
+    background-color:rgba(227, 196, 40, 0.806);
+    color:black;
+    border-radius:25px;
+    padding:15px;
+}
+
+#buttondiv{
+    text-align:center;
+    border: solid black;
+    display:inline-block;
+    padding:20px;
+    border-radius:25px;
+}
+
+
+.labeldiv{
+    border:solid black;
+    border-radius:25px;
+    padding:15px;
+    display:inline-block;
+}
+
+h2{
+    font-size:40px;
+}
+
+#mybutton2{
+    font-size:100px;
+    text-decoration:none;
+    background-color: rgba(227, 196, 40, 0.806);
+    color: black;
+    border-radius:25px;
+    padding:15px;
+}
+
+#mylabel2{
+    font-size:100px;
+}
+
+#mylabel3{
+font-size:100px;
+}
+
+#label2div{
+    border:solid black;
+border-radius:25px;
+padding: 15px;
+display:inline-block;
+}
+
+#button2div{
+    display:inline-block;
+    border-radius:25px;
+    padding:20px;
+    border:solid black;
+}
+
+#label3div{
+    display:inline-block;
+    border-radius:25px;
+    padding:15px;
+    border:solid black;
 }
