@@ -17,6 +17,12 @@
     color:rgba(227, 196, 40, 0.806);
 }
 
+#mya9{
+    text-decoration:none;
+    color:white;
+    font-size:70px;
+
+}
 .mydiv{
     background-color:rgba(227, 196, 40, 0.806);
     width:100%;
@@ -110,6 +116,15 @@ h2{
     padding:15px;
 }
 
+#mybutton3{
+    font-size:100px;
+    text-decoration:none;
+    background-color:rgba(227, 196, 40, 0.806);
+    color:black;
+    border-radius:25px;
+    padding:15px;
+}
+
 #mylabel2{
     font-size:100px;
 }
@@ -132,9 +147,40 @@ display:inline-block;
     border:solid black;
 }
 
+#mybutton3div{
+    display: inline-block;
+    border-radius:25px;
+    padding:20px;
+    border: solid black;
+}
+
 #label3div{
     display:inline-block;
     border-radius:25px;
     padding:15px;
     border:solid black;
+}
+
+#label4div{
+    display:inline-block;
+    border-radius:25px;
+    padding:20px;
+    border:solid black;
+    font-size:100px;
+}
+
+#label5div{
+    display:inline-block;
+    border-radius:25px;
+    padding:20px;
+    border:solid black;
+    font-size:100px;
+}
+
+#label6div{
+    display:inline-block;
+    padding:20px;
+    border:solid black;
+    border-radius:25px;
+    font-size:100px;
 }

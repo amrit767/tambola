@@ -7,7 +7,7 @@ const mylabel3 = document.getElementById("mylabel3");
 
 const mybutton3 = document.getElementById("mybutton3");
 const mylabel4 = document.getElementById("mylabel4");
-const mylabel5 = document.getElementById("mylable5");
+const mylabel5 = document.getElementById("mylabel5");
 const mylabel6 = document.getElementById("mylabel6");
 
 const min = 1;
@@ -38,7 +38,7 @@ mybutton2.onclick = function(){
 mybutton3.onclick = function(){
     forthrandomnum = Math.floor(Math.random() * max) + min;
     fifthrandomnum = Math.floor(Math.random() * max) + min;
-    sixthrandomnum =Math.floor(Math.random() * max) + min;
+    sixthrandomnum = Math.floor(Math.random() * max) + min;
 
     mylabel4.textContent = forthrandomnum;
     mylabel5.textContent = fifthrandomnum;
